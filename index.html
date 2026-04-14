@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>сайт</title>
+</head>
+<body>
+    <header>
+        <button class="toggle-button" onclick="openNav()">&#9776; Наши точки</button>
+        <div class="articles">
+            <div class="article-name"><a href="#milk-coffee">Кофи с молокой</a></div>
+            <div class="article-name"><a href="#black-coffee">Черни кофе</a></div>
+            <div class="article-name"><a href="#milk-coffee">Кофи с молокой</a></div>
+            <div class="article-name"><a href="#milk-coffee">Кофи с молокой</a></div>
+        </div>
+    </header>
+    <main>
+        <div class="loading-container">
+            <div class="loading"></div>
+        </div>
+        <div id="navSidepanel" class="navPanel">
+            <a href="javascript:void(0)" class="closebtn" 
+                onclick="closeNav()">&times;</a>   
+            <div class="points">
+                <a href="#">тчк 1</a>
+                <a href="#">тчк 2</a>
+                <a href="#">тчк 3</a>
+                <a href="#">тчк 4</a>
+            </div>
+        </div>
+        <div class="content">
+            <article class="block" id="milk-coffee">
+                <div class="head">
+                    <h2>Кофи с молокой</h2>
+                </div>
+                <div class="grid-menu">
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Капучина</h3>
+                        <p>200/280 мл.</p>
+                        <p>260/290 руб.</p>
+                    </div>
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Латта</h3>
+                        <p>280 мл.</p>
+                        <p>290 руб.</p>
+                    </div>
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Латта</h3>
+                        <p>Сейчас я занимаюсь тем, что печатаю какую-то бессмыслицу на клавиатуре</p>
+                        <p>280 мл.</p>
+                        <p>290 руб.</p>
+                    </div>
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Латта</h3>
+                        <p>Я в своем познании настолько преисполнился</p>
+                        <p>280 мл.</p>
+                        <p>290 руб.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="block" id="black-coffee">
+                <div class="head">
+                    <h2>Черни кофи</h2>
+                </div>
+                <div class="grid-menu">
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Фильтр</h3>
+                        <p>200/300 мл.</p>
+                        <p>230/270 руб.</p>
+                    </div>
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Эспрессо</h3>
+                        <p>45 мл.</p>
+                        <p>190 руб.</p>
+                    </div>
+                    <div class="item">
+                        <div class="svg">
+                            <img src="latte.jpg" alt="красивая картинка кофи">
+                        </div>
+                        <h3>Бариста сет</h3>
+                        <p>эспрессо + капучино</p>
+                        <p>360 руб.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="points">
+            <p>Наши точки</p>
+            <a href="#">тчк 1</a>
+            <a href="#">тчк 2</a>
+            <a href="#">тчк 3</a>
+            <a href="#">тчк 4</a>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="nav_panel_script.js"></script>
+<script src="loading_script.js"></script>
