@@ -15,12 +15,18 @@
 
 header {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-auto-flow: row;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .articles {
     grid-column: 1/-1;
+    grid-row: 3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -84,7 +90,7 @@ header {
     }
 }
 
-.points {
+.points, .social {
     font-size: 1.125em;
     margin: .5em;
     padding: 0 2em;
@@ -93,11 +99,11 @@ header {
 footer {
     outline: 0.2em var(--karmin-red) solid;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /*навигационка*/
 .toggle-button {
-    grid-column: 1/-1;
     justify-self: start;
     font-size: 20px;
     cursor: pointer;
