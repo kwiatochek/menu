@@ -11,6 +11,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--karmin-red);
     background-color: light-dark(var(--bc-color-light), var(--bc-color-dark));
+    scroll-behavior: smooth;
 }
 
 header {
